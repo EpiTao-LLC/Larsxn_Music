@@ -1,0 +1,16 @@
+
+html {
+    font-family: Montserrat, Ubuntu;
+    background-color: #c9d6df;
+}
+body {
+    font-family: "Montserrat";
+    color:#1e2022;
+    text-align: center;
+    width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-style: bold;
+}

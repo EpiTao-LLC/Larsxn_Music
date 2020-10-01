@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router} from "react-router-dom"
+import {BroserRouter as Router} from "react-router-dom"
 import logo from './logo.svg';
 import './App.css';
 // import SEO from "./components/seo"

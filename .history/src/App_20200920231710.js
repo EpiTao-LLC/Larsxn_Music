@@ -1,5 +1,4 @@
 import React from 'react';
-import {BrowserRouter as Router} from "react-router-dom"
 import logo from './logo.svg';
 import './App.css';
 // import SEO from "./components/seo"
@@ -8,18 +7,17 @@ import LayoutContainer from "./components/LayoutContainer"
 
 function App() {
   return (
-    <Router>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <div>
+        <p>
         {/* <SEO title="Larsxn Music"/> */}
         {/* <Helmet>
         </Helmet> */}
         <LayoutContainer />
 
           Edit <code>src/App.js</code> and save to reload.
-        </div>
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -30,7 +28,6 @@ function App() {
         </a>
       </header>
     </div>
-    </Router>
   );
 }
 

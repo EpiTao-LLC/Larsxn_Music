@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router} from "react-router-dom"
+import BroserRouter as Router from "react-router-dom"
 import logo from './logo.svg';
 import './App.css';
 // import SEO from "./components/seo"
@@ -8,7 +8,6 @@ import LayoutContainer from "./components/LayoutContainer"
 
 function App() {
   return (
-    <Router>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -30,7 +29,6 @@ function App() {
         </a>
       </header>
     </div>
-    </Router>
   );
 }
 

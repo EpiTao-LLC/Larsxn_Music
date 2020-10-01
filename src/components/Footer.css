@@ -1,0 +1,46 @@
+
+/* Footer and social icons */
+
+
+#footer {
+    font-size: 1.0rem;
+    margin: 0;
+    padding-top: 4rem;
+    padding-bottom: 40rem;
+    text-align: center;
+    background-color: white;
+}
+
+.email-icon {
+    color: #52616B;
+    border: none;
+    font-size: 35px;
+    position: relative;
+    margin: 0 .5rem 0 .5rem;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.email-btn .tooltiptext {
+    visibility: hidden;
+    font-size: 1rem;
+    width: 140px;
+    background-color:#c9d6df;
+    color:  #52616B;
+    border-radius: 8px;
+    border: solid 2px black;
+    /* Position the tooltip */
+    margin-left: -1rem;
+    position: absolute;
+    z-index: 1;
+  }
+
+.email-btn:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  @media (max-width: 780px) {
+    #footer {
+      padding-bottom: 24rem;
+    }
+  }

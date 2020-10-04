@@ -24,8 +24,6 @@ const Layout = () => {
 
   console.log ('in layout')
   let titleContext = useContext(titleNameContext)
-
-  titleNameContext.Provider.currentValue = "Away"
   let x = titleNameContext.Provider.currentValue
   let artistContext = useContext(artistsPageContext)
   console.log (titleNameContext)

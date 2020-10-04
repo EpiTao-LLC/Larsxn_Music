@@ -1,5 +1,5 @@
 
-import React, { useContext} from "react"
+import React from "react"
 // import {
 //   BrowserRouter as Router,
 //   Switch,
@@ -17,32 +17,38 @@ import Footer from "./Footer"
 import "./Layout.css"
 import titles from "../content_data/titles"
 import artists from "../content_data/artists"
-import { artistsPageContext, titleNameContext } from "./LayoutContainer"
+import { titleNameContext } from "./LayoutContainer"
 
 
-const Layout = () => {
+const Layout = (props) => {
 
-  console.log ('in layout')
-  let titleContext = useContext(titleNameContext)
+  //defaulting to context information if parms aren't supplied in call.  For future use.
+  console.log('in Layout')
+  console.log(' artists', props.artistPage)
+  console.log('title', props.titleName)
+  let titleName = React.useContext(titleNameContext);
 
-  titleNameContext.Provider.currentValue = "Away"
-  let x = titleNameContext.Provider.currentValue
-  let artistContext = useContext(artistsPageContext)
-  console.log (titleNameContext)
-  console.log (x)
+  if(props.title) {
+    titleName = props.title;
+  } else if (props.location.title) {
+    const {title} = props.location.title;
+    const {artistPage} = props.location.artistPage;
+    console.log ("in Layout - title ", title);
+    console.log ("in Layout - artistPage ", artistPage)
+  } else {
+    console.log("nothing recieved")
+  }
 
-  let curTitle = titles.find(titles => titles.titleName === titleContext.title);
-  let artistList = artists.filter(artist => artist.titleName === titleContext.title);
-
-  console.log(artistList)
+  let curTitle = titles.find(titles => titles.titleName === titleName);
+  let artistList = artists.filter(artist => artist.titleName === titleName);
 
   return (
     <div>
       <Header titleName={curTitle.titleName} cover={curTitle.cover} coverArt={curTitle.coverArt} alt={curTitle.alt}/>
-      {artistContext.artistsPage &&
-          <ArtistsSectionContainer artistList={artistList} />
+      {artistsPage &&
+          <ArtistsSectionContainer artistPage={artistList} />
       }
-      {!artistContext.artistsPage &&
+      {!artistsPage &&
         <>
           <MessageSectionContainer />
           <DemosSectionCarouselContainer title={curTitle.titleName} />

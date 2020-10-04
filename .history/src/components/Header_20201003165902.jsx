@@ -1,9 +1,9 @@
 
 import React, { useContext } from "react"
-// import {
-//   BrowserRouter as
-//   Link,
-// } from "react-router-dom"
+import {
+  BrowserRouter as
+  Link,
+} from "react-router-dom"
 
 import { Container, Navbar, Nav, NavDropdown, Row, Col } from 'react-bootstrap';
 import { faCloudDownloadAlt } from "@fortawesome/free-solid-svg-icons";
@@ -27,9 +27,8 @@ function setContext (titleName, artistPage) {
 const Header = (
   {titleName, cover, coverArt, alt}
   ) => {
-    // let titleContext = useContext(titleNameContext)
+    let titleContext = useContext(titleNameContext)
     let artistContext = useContext(artistsPageContext)
-    console.log ('header', titleNameContext.Provider.currentValue)
   return (
   <header >
 
@@ -45,23 +44,21 @@ const Header = (
               className='nav-link' >Home</a>
             </Nav.Item>
             <NavDropdown title="Artists" id="basic-nav-dropdown">
-            {/* <titleNameContext.provider value="Away"> */}
-              <NavDropdown.Item as="li" className='nav-item dropdown-item'>
-                <a href = '/LayoutContainer' className='nav-item dropdown-item'
 
+              <NavDropdown.Item as="li" className='nav-item dropdown-item'>
+                <Link to={'/Layout'}
+                  className='nav-item dropdown-item'
                   onClick={() => {
-                    titleNameContext.title = "Lie."
+                    titleContext.title = "Lie."
                     artistContext.artistsPage = true
                     trackingCall("Lie. Artists")}}
-                  >'Lie.' - Single</a>
+                  >'Lie.' - Single</Link>
 
               </NavDropdown.Item>
-              {/* </titleNameContext.provider> */}
               <NavDropdown.Item as="li" className='nav-item dropdown-item'>
-                <a href = "/" className='nav-item dropdown-item'
+                <a href = "/LayoutContainer" className='nav-item dropdown-item'
                   onClick={() => {
-                    titleNameContext.title = "Away"
-                    alert(titleNameContext.title)
+                    titleContext.title = "Away"
                     artistContext.artistsPage = true
                     trackingCall('Away Artists')}}
                   >'Away' - EP</a>

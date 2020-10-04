@@ -24,12 +24,9 @@ const Layout = () => {
 
   console.log ('in layout')
   let titleContext = useContext(titleNameContext)
-
-  titleNameContext.Provider.currentValue = "Away"
-  let x = titleNameContext.Provider.currentValue
+  titleContext = titleNameContext.Provider.currentValue.title
   let artistContext = useContext(artistsPageContext)
   console.log (titleNameContext)
-  console.log (x)
 
   let curTitle = titles.find(titles => titles.titleName === titleContext.title);
   let artistList = artists.filter(artist => artist.titleName === titleContext.title);

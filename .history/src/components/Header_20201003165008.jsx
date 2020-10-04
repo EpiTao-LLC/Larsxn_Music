@@ -1,9 +1,9 @@
 
 import React, { useContext } from "react"
-// import {
-//   BrowserRouter as
-//   Link,
-// } from "react-router-dom"
+import {
+  BrowserRouter as
+  Link,
+} from "react-router-dom"
 
 import { Container, Navbar, Nav, NavDropdown, Row, Col } from 'react-bootstrap';
 import { faCloudDownloadAlt } from "@fortawesome/free-solid-svg-icons";
@@ -27,9 +27,7 @@ function setContext (titleName, artistPage) {
 const Header = (
   {titleName, cover, coverArt, alt}
   ) => {
-    // let titleContext = useContext(titleNameContext)
-    let artistContext = useContext(artistsPageContext)
-    console.log ('header', titleNameContext.Provider.currentValue)
+    let titleContext = useContext(titleNameContext)
   return (
   <header >
 
@@ -45,26 +43,21 @@ const Header = (
               className='nav-link' >Home</a>
             </Nav.Item>
             <NavDropdown title="Artists" id="basic-nav-dropdown">
-            {/* <titleNameContext.provider value="Away"> */}
-              <NavDropdown.Item as="li" className='nav-item dropdown-item'>
-                <a href = '/LayoutContainer' className='nav-item dropdown-item'
 
+              <NavDropdown.Item as="li" className='nav-item dropdown-item'>
+                <Link to={'/Layout'}
+                  // state: { title: 'Lie.', artistPage: true}}}
+                  className='nav-item dropdown-item'
                   onClick={() => {
-                    titleNameContext.title = "Lie."
-                    artistContext.artistsPage = true
+                    setContext ("Lie.", true)
                     trackingCall("Lie. Artists")}}
-                  >'Lie.' - Single</a>
+                  >'Lie.' - Single</Link>
 
               </NavDropdown.Item>
-              {/* </titleNameContext.provider> */}
               <NavDropdown.Item as="li" className='nav-item dropdown-item'>
-                <a href = "/" className='nav-item dropdown-item'
-                  onClick={() => {
-                    titleNameContext.title = "Away"
-                    alert(titleNameContext.title)
-                    artistContext.artistsPage = true
-                    trackingCall('Away Artists')}}
-                  >'Away' - EP</a>
+                <a href = "/Layout" className='nav-item dropdown-item'
+                  onClick={() => {trackingCall('Away Artists')}}
+                  state={{titleName: 'Away'}}>'Away' - EP</a>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Item as="li" className='nav-link'>

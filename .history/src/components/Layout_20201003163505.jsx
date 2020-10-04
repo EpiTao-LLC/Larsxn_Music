@@ -20,20 +20,32 @@ import artists from "../content_data/artists"
 import { artistsPageContext, titleNameContext } from "./LayoutContainer"
 
 
-const Layout = () => {
+const Layout = (props) => {
 
-  console.log ('in layout')
   let titleContext = useContext(titleNameContext)
 
-  titleNameContext.Provider.currentValue = "Away"
-  let x = titleNameContext.Provider.currentValue
   let artistContext = useContext(artistsPageContext)
-  console.log (titleNameContext)
-  console.log (x)
+
+  //defaulting to context information if parms aren't supplied in call.  For future use.
+  // console.log('in Layout')
+  // console.log(' artists', props.artistsPage)
+  // console.log('title', props.titleName)
+
+  // if(props.titleName) {
+  //   titleName = props.title;
+  // } else if (props.location.title) {
+  //   const {title} = props.location.title;
+  //   const {artistPage} = props.location.artistPage;
+  //   console.log ("in Layout - title ", title);
+  //   console.log ("in Layout - artistPage ", artistPage)
+  // } else {
+  //   console.log("nothing recieved")
+  // }
 
   let curTitle = titles.find(titles => titles.titleName === titleContext.title);
+  // let curTitle = titles.find(titles => titles.titleName === title);
   let artistList = artists.filter(artist => artist.titleName === titleContext.title);
-
+  // let artistList = artists.filter(artist => artist.titleName === title);
   console.log(artistList)
 
   return (

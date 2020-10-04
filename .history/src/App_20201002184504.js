@@ -11,7 +11,7 @@ function App() {
     <Router>
     <div className="App">
       <header className="App-header">
-
+        <img src={logo} className="App-logo" alt="logo" />
         <div>
         {/* <SEO title="Larsxn Music"/> */}
         {/* <Helmet>

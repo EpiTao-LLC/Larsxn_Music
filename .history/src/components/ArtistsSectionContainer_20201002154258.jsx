@@ -26,7 +26,6 @@ function createArtist (artist) {
 
 const ArtistsSectionContainer = ({artistList}) => {
     console.log("in ArtistsSectionContainer");
-    console.log("artistList", artistList)
     if(Array.isArray(artistList)) {
         return (
             <section id="artists" >

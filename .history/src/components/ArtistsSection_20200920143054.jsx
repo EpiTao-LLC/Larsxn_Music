@@ -2,7 +2,7 @@
 import React from "react"
 import {  Row, Col } from 'react-bootstrap';
 import './ArtistsSection.css';
-import trackingCall from "../utils/trackingCall"
+import trackingCall from "../../utils/trackingCall"
 
 
 const ArtistsSection = (

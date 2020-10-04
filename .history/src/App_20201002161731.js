@@ -11,14 +11,23 @@ function App() {
     <Router>
     <div className="App">
       <header className="App-header">
-
+        <img src={logo} className="App-logo" alt="logo" />
         <div>
         {/* <SEO title="Larsxn Music"/> */}
         {/* <Helmet>
         </Helmet> */}
         <LayoutContainer />
-        </div>
 
+          Edit <code>src/App.js</code> and save to reload.
+        </div>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
     </Router>

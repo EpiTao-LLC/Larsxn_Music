@@ -3,7 +3,7 @@ import React from "react"
 import { Link } from "react-router-dom"
 import ArtistsSection from "./ArtistsSection"
 import "./ArtistsSection.css"
-import trackingCall from "../utils/trackingCall"
+import trackingCall from "../../utils/trackingCall"
 
 
 function createArtist (artist) {
@@ -26,7 +26,6 @@ function createArtist (artist) {
 
 const ArtistsSectionContainer = ({artistList}) => {
     console.log("in ArtistsSectionContainer");
-    console.log("artistList", artistList)
     if(Array.isArray(artistList)) {
         return (
             <section id="artists" >

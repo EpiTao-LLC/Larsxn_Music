@@ -29,7 +29,6 @@ const Header = (
   ) => {
     // let titleContext = useContext(titleNameContext)
     let artistContext = useContext(artistsPageContext)
-    console.log ('header', titleNameContext.Provider.currentValue)
   return (
   <header >
 

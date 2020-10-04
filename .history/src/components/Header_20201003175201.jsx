@@ -29,7 +29,6 @@ const Header = (
   ) => {
     // let titleContext = useContext(titleNameContext)
     let artistContext = useContext(artistsPageContext)
-    console.log ('header', titleNameContext.Provider.currentValue)
   return (
   <header >
 
@@ -47,7 +46,7 @@ const Header = (
             <NavDropdown title="Artists" id="basic-nav-dropdown">
             {/* <titleNameContext.provider value="Away"> */}
               <NavDropdown.Item as="li" className='nav-item dropdown-item'>
-                <a href = '/LayoutContainer' className='nav-item dropdown-item'
+                <a href = '/' className='nav-item dropdown-item'
 
                   onClick={() => {
                     titleNameContext.title = "Lie."

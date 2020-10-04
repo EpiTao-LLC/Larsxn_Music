@@ -6,9 +6,8 @@ import Layout from "../components/Layout"
 const LayoutContainer = () => {
 
     // let titleName = titles[0].titleName
-    // let titleName = titleNameContext.title
+    let titleName = titleNameContext.title
     // const [artistsPage, setArtistsPage] = useState(false)
-    console.log("in LayoutContainer")
 
     return (
         <div>

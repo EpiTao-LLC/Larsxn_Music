@@ -1,6 +1,16 @@
 import ReactPixel from 'react-facebook-pixel'
 import ReactGA from 'react-ga';
 
+
+// const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+// const options = {
+//   autoConfig: true, // set pixel's autoConfig
+//   debug: false, // enable logs
+// };
+// ReactPixel.init('674289710019508', advancedMatching, options);
+// ReactGA.initialize('UA-167786271-1');
+// ReactGA.pageview(window.location.pathname + window.location.search);
+
 function fbTrack(a,b) {
     if (process.env.NODE_ENV === `production` && typeof fbq === `function`) {
         ReactPixel.trackCustom(a, b);

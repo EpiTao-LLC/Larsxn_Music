@@ -1,0 +1,148 @@
+
+/* Featured artist section */
+
+#artists {
+    background-color: #c9d6df;
+    color: #1e2022;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%;
+}
+
+.artist-section {
+    margin: auto;
+    width: 50%;
+}
+
+#artists-title {
+    text-align: center;
+    padding-top: 8rem;
+    font-size: 2.75vw;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+.artist-pic-box {
+    align-self: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.artist-text-box {
+    text-align: left;
+    font-size: 1.50vw;
+    color:  #52616b;
+    font-weight: 500;
+    white-space: pre-wrap;
+    position: relative;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.artist-name {
+    font-style: bold;
+    color: black;
+    font-weight: 600;
+    font-size: 2.0vw;
+}
+
+.artist-tag {
+    font-style: italic;
+    /* font-size: 1.5rem; */
+}
+
+
+.artist-logos {
+    margin-bottom: 1rem;
+    align-self: center;
+    border-radius: 0rem;
+    height: 50px;
+    width: 100px;
+}
+
+.home-link {
+    margin-top: 6rem;
+    /* margin: auto; */
+    font-style: bold;
+    font-size: 2.0rem;
+    font-weight: 800;
+    text-decoration: none;
+    color:  #52616b;
+    /* padding-bottom: 20px */
+
+}
+.home-link:hover {
+    color: black;
+    font-size: 2.25rem;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1200px) {
+    #artists {
+        text-align: center;
+        font-size: 2.5rem;
+        padding-top: 2rem;
+    }
+    #artist-title {
+        text-align: center;
+        font-size: 3rem;
+    }
+    .artist-pic-box {
+        /* text-align: center; */
+        min-width: 300px;
+    }
+}
+
+  /* Mobile Styling */
+
+/* @media (max-width: 780px) { */
+@media (max-width: 990px) {
+
+    #artists-title {
+        padding-top: 4rem;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    #artists {
+        text-align: center;
+        padding-bottom: -1.25rem;
+    }
+    .artist-name {
+        font-size: 1.75rem;
+    }
+    .artist_tag {
+        font-style: italic;
+        font-size: 1.0rem;
+    }
+
+    .artist-text-box {
+        text-align: center;
+        font-size: 1.0rem;
+        width: 300px;
+    }
+    .artist-pic-box {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+}
+@media (max-width: 780px) {
+    #artists-title {
+        padding-top: 2rem;
+    }
+    .home-link {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+}

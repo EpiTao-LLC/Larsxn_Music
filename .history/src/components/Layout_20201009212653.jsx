@@ -12,6 +12,7 @@ import titles from "../content_data/titles"
 import artists from "../content_data/artists"
 import ErrorBoundry from "./ErrorBoundary"
 
+
 const Layout = ({appContext}) => {
 
   // The Layout displays the artists section if artistPage is true, or the main section

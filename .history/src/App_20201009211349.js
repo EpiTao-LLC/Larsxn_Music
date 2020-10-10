@@ -17,6 +17,9 @@ function App() {
     artistsPage: false
   })
 
+  console.log ('app titles', context.titles)
+  console.log ('app artistsPage', context.artistspage)
+
   return (
     <div className="App">
       <header className="App-header">
@@ -24,7 +27,7 @@ function App() {
           <div>
             <SEO />
             <Layout
-            appContext= {[context, setContext]}
+              appContext= {[context, setContext]}
             />
            </div>
         </ErrorBoundry>

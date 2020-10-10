@@ -4,6 +4,7 @@ import SEO from "./components/seo"
 import titles from "./content_data/titles"
 import Layout from "./components/Layout"
 import ErrorBoundry from "./components/ErrorBoundary"
+import LayoutContainer from './components/LayoutContainer';
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
     title: titles[0].titleName,
     artistsPage: false
   })
+
+  console.log ('app titles', context.title)
+  console.log ('app artistsPage', context.artistsPage)
 
   return (
     <div className="App">

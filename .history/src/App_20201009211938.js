@@ -4,6 +4,7 @@ import SEO from "./components/seo"
 import titles from "./content_data/titles"
 import Layout from "./components/Layout"
 import ErrorBoundry from "./components/ErrorBoundary"
+import LayoutContainer from './components/LayoutContainer';
 
 function App() {
 
@@ -12,10 +13,13 @@ function App() {
   // will display below the header as artistsPage is set to false (default).  When artistPage
   // is true the Layout will display the artists who's work is featured.
 
-  const [context, setContext ] = useState({
-    title: titles[0].titleName,
-    artistsPage: false
-  })
+  // const [context, setContext ] = useState({
+  //   title: titles[0].titleName,
+  //   artistsPage: false
+  // })
+
+  // console.log ('app titles', context.titles)
+  // console.log ('app artistsPage', context.artistspage)
 
   return (
     <div className="App">
@@ -23,9 +27,7 @@ function App() {
         <ErrorBoundry>
           <div>
             <SEO />
-            <Layout
-            appContext= {[context, setContext]}
-            />
+            <LayoutContainer />
            </div>
         </ErrorBoundry>
       </header>

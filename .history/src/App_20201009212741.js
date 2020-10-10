@@ -4,6 +4,7 @@ import SEO from "./components/seo"
 import titles from "./content_data/titles"
 import Layout from "./components/Layout"
 import ErrorBoundry from "./components/ErrorBoundary"
+import LayoutContainer from './components/LayoutContainer';
 
 function App() {
 

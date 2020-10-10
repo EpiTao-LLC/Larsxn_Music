@@ -37,9 +37,9 @@ const channels = [
       },
       {
         id: 7,
-        name: "iHeartRadio",
-        logo: "../images/iheartradio-logo.jpeg",
-        href: 'https://www.iheart.com/artist/larsxn-34459646/'
+        name: "GooglePlay",
+        logo: "../images/Google_Play_logo.png",
+        href: 'https://play.google.com/store/music/artist?id=Atvqxetkyoco7l53jnsfg7zmcfi&hl=en_US'
       },
       {
         id: 8,

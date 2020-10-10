@@ -21,7 +21,7 @@ ReactGA.initialize('UA-167786271-1', {
   }
 });
 
-// record GA page view
+// record page view
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(

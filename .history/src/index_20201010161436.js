@@ -13,13 +13,7 @@ const options = {
   debug: false, // enable logs
 };
 ReactPixel.init('674289710019508', advancedMatching, options);
-ReactGA.initialize('UA-167786271-1', {
-  debug: true,
-  titleCase: false,
-  gaOptions: {
-    siteSpeedSampleRate: 100,
-  }
-});
+ReactGA.initialize('UA-167786271-1');
 
 // record page view
 ReactGA.pageview(window.location.pathname + window.location.search);

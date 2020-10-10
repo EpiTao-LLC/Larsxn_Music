@@ -1,0 +1,15 @@
+
+html {
+    font-family: "Montserrat";
+
+}
+body {
+    font-family: "Montserrat";
+    color:#1e2022;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-style: bold;
+}

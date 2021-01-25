@@ -1,10 +1,10 @@
 const songs = [
     {
         id: 1,
-        titleName: "What Can I Say",
-        songTitle: "What Can I Say",
-        song: '/audio/What_can_I_say.m4a',
-        feat: "(feat. Playd3ad)",
+        titleName: "Lie",
+        songTitle: "Lie",
+        song: '/audio/Lie.m4a',
+        feat: "(feat. Chris Shoda)",
     },{
         id: 2,
         titleName: "Lie",

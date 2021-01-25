@@ -94,7 +94,7 @@ const DemosSectionCarouselContainer = (
                   >Artists</a>
             </Carousel.Item>
             <Carousel.Item>
-                {createDemosSlideHeader(titlesList[2])}
+                {createDemosSlideHeader(titlesList[1])}
                 {createDemosSongs(titlesList[2])}
                 <a href="#title" className='artist-link'
                   onClick={() => {

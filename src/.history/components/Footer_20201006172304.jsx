@@ -25,7 +25,7 @@ const Footer = (
         <FontAwesomeIcon icon={faEnvelope} className="social-icon"/>
         <span className='tooltiptext'>Email Larsxn</span>
       </a>
-      <p>© Copyright 2021 Larsxn</p>
+      <p>© Copyright 2020 Larsxn</p>
 
     </footer>
   )

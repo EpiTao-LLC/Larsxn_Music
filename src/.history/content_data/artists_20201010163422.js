@@ -67,29 +67,6 @@ const artists = [
         work: "Vocals and lyrics on 'Lie'",
         finalComment: "Let's make music."
     },
-    {
-        id: 7,
-        titleName: 'What Can I Say',
-        name: "Playd3ed",
-        picture: "/images/Playd3ed.jpeg",
-        alt: "Playd3ed picture",
-        tag: "'D3AD4LIFE AND THATS ALL IVE EVER KNOWN'",
-        siteLogo: "/images/spotify-logo.jpeg",
-        href: 'https://open.spotify.com/artist/4tMwfyckIsnzmaTcZtsFSo',
-        work: "Vocals and lyrics on 'What can I say'",
-    },
-    {
-        id: 8,
-        titleName: 'What Can I Say',
-        name: "Larsxn",
-        picture: "/images/Larsxn_shades_cropped.jpeg",
-        alt: "Larsxn picture",
-        tag: "'It's got to come from the heart.'",
-        siteLogo: "",
-        href: '',
-        work: "Vocals and lyrics on 'What Can I Say'",
-        finalComment: "Let's make music."
-    },
   ];
 
   export default artists;

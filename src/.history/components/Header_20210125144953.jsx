@@ -56,7 +56,7 @@ const Header = (
                   onClick={() => {
                     updateState('What Can I Say', true, appContext)
                     trackingCall('What Can I Say Artists')}}
-                  >'What Can I Say' - Single</button>
+                  >Lie' - Single</button>
               </NavDropdown.Item>
 
               <NavDropdown.Item as="li" className='nav-item dropdown-item'>
@@ -64,7 +64,7 @@ const Header = (
                   onClick={() => {
                     updateState('Lie', true, appContext)
                     trackingCall('Lie Artists')}}
-                  >'Lie' - Single</button>
+                  >Lie' - Single</button>
               </NavDropdown.Item>
 
 

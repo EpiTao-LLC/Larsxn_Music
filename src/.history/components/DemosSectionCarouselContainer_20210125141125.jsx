@@ -94,12 +94,12 @@ const DemosSectionCarouselContainer = (
                   >Artists</a>
             </Carousel.Item>
             <Carousel.Item>
-                {createDemosSlideHeader(titlesList[2])}
+                {createDemosSlideHeader(titlesList[1])}
                 {createDemosSongs(titlesList[2])}
                 <a href="#title" className='artist-link'
                   onClick={() => {
-                      trackingCall(titlesList[2].titleName + " Artists")
-                      updateState(titlesList[2].titleName, true, appContext)}}
+                      trackingCall(titlesList[1].titleName + " Artists")
+                      updateState(titlesList[1].titleName, true, appContext)}}
                   >Artists</a>
             </Carousel.Item>
         </Carousel>

@@ -87,7 +87,7 @@ const artists = [
         tag: "'It's got to come from the heart.'",
         siteLogo: "",
         href: '',
-        work: "Vocals and lyrics on 'What Can I Say'",
+        work: "Vocals and lyrics on 'Lie'",
         finalComment: "Let's make music."
     },
   ];

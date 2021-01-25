@@ -75,7 +75,7 @@ const artists = [
         alt: "Playd3ed picture",
         tag: "'D3AD4LIFE AND THATS ALL IVE EVER KNOWN'",
         siteLogo: "/images/spotify-logo.jpeg",
-        href: 'https://open.spotify.com/artist/4tMwfyckIsnzmaTcZtsFSo',
+        href: 'https://open.spotify.com/artist/0ryzMRpTWkUorpPA8CSZ8u?si=QxjyNVXaTgKTwM3l8acr1A',
         work: "Vocals and lyrics on 'What can I say'",
     },
     {
@@ -87,7 +87,7 @@ const artists = [
         tag: "'It's got to come from the heart.'",
         siteLogo: "",
         href: '',
-        work: "Vocals and lyrics on 'What Can I Say'",
+        work: "Vocals and lyrics on 'Lie'",
         finalComment: "Let's make music."
     },
   ];

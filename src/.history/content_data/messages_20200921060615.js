@@ -11,7 +11,7 @@ const messages = [
         leftAlign: false,
         picture: "/images/Larsxn_studio.jpeg",
         alt: "Larsxn studio picture",
-        text: "Gratitude to Playd3ad, Oly Amo, Ktm Chano, Chris Shoda, Kid Ocean and ThunderHoodie.  They're the best. On fire. Collective creation is a gift that keeps on giving.\n\nIf you're into making music and want to join a crew for a project, send me some mail. Let's connect.\n\nPeace,\n-Larsxn"
+        text: "Gratitude to Oly Amo, Ktm Chano, Chris Shoda, Kid Ocean and ThunderHoodie.  They're the best. On fire. Collective creation is a gift that keeps on giving.\n\nIf you're into making music and want to join a crew for a project, send me some mail. Let's connect.\n\nPeace,\n-Larsxn"
     },
   ];
 

@@ -4,7 +4,7 @@ const songs = [
         titleName: "What Can I Say",
         songTitle: "What Can I Say",
         song: '/audio/What_can_I_say.m4a',
-        feat: "(feat. Playd3ad)",
+        feat: "(feat. Play3ad)",
     },{
         id: 2,
         titleName: "Lie",

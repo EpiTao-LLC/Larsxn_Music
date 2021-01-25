@@ -51,22 +51,13 @@ const Header = (
             </Nav.Item>
 
             <NavDropdown title="Artists" id="basic-nav-dropdown">
-              <NavDropdown.Item as="li" className='nav-item dropdown-item'>
-                <button type = "button" className='nav-item dropdown-item'
-                  onClick={() => {
-                    updateState('What Can I Say', true, appContext)
-                    trackingCall('What Can I Say Artists')}}
-                  >'What Can I Say' - Single</button>
-              </NavDropdown.Item>
-
-              <NavDropdown.Item as="li" className='nav-item dropdown-item'>
+            <NavDropdown.Item as="li" className='nav-item dropdown-item'>
                 <button type = "button" className='nav-item dropdown-item'
                   onClick={() => {
                     updateState('Lie', true, appContext)
                     trackingCall('Lie Artists')}}
-                  >'Lie' - Single</button>
+                  >Lie' - Single</button>
               </NavDropdown.Item>
-
 
               <NavDropdown.Item as="li" className='nav-item dropdown-item'>
                 <button type = "button"  className='nav-item dropdown-item'

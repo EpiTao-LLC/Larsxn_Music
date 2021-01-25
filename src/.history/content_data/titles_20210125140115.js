@@ -14,11 +14,11 @@ const titles = [
     {
         id: 2,
         titleName: "Lie",
-        cover: "Hit Single: 'Lie'",
-        coverArt: "/images/Lie_cover.jpeg",
+        cover: "New Single: 'Lie'",
+        coverArt: "/images/Lie_cover_closer.jpeg",
         alt: "'Lie' cover art",
         artists: "Featured Artists on 'Lie'",
-        demoDesc: "'Lie' - Single",
+        demoDesc: "'Lie' - Single - July, 2020 ",
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const titles = [
         coverArt: "/images/Away_cover.jpeg",
         alt: "'Away' cover art",
         artists: "Featured Artists on 'Away'",
-        demoDesc: "'Away' - EP"
+        demoDesc: "'Away' EP - May, 2020"
     },
   ];
 

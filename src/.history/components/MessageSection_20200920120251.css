@@ -65,7 +65,7 @@
 
   @media (max-width: 780px) {
     #message {
-        padding-bottom: 4rem;
+        padding-bottom: 6rem;
     }
     #quote {
         font-size: 1.75rem;

@@ -14,7 +14,7 @@ const channels = [
       {
         id: 3,
         name: "SoundCloud",
-        logo: "../images/2020_soundcloudlogo.jpeg",
+        logo: "../images/2020_soundcloudlogo.png",
         href: 'https://soundcloud.com/larsxn'
       },
       {

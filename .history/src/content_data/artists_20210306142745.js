@@ -17,7 +17,7 @@ const artists = [
         picture: "/images/KTM_Chano.png",
         alt: "Ktm Chano picture",
         tag: "'Just trying to make dreams come true.'",
-        siteLogo: "/images/2020_soundcloudlogo.png",
+        siteLogo: "/images/2020_soundcloudlogo.jpeg",
         href: 'https://soundcloud.com/chandler-sutherland',
         work: "Vocals and lyrics on 'Never Stop Me'",
     },
@@ -65,6 +65,29 @@ const artists = [
         siteLogo: "",
         href: '',
         work: "Vocals and lyrics on 'Lie'",
+        finalComment: "Let's make music."
+    },
+    {
+        id: 7,
+        titleName: 'What Can I Say',
+        name: "PLAYD3AD",
+        picture: "/images/Playd3ed.jpeg",
+        alt: "PLAYD3AD picture",
+        tag: "'D3AD4LIFE AND THATS ALL IVE EVER KNOWN'",
+        siteLogo: "/images/spotify-logo.jpeg",
+        href: 'https://open.spotify.com/artist/4tMwfyckIsnzmaTcZtsFSo',
+        work: "Vocals and lyrics on 'What can I say'",
+    },
+    {
+        id: 8,
+        titleName: 'What Can I Say',
+        name: "Larsxn",
+        picture: "/images/Larsxn_shades_cropped.jpeg",
+        alt: "Larsxn picture",
+        tag: "'It's got to come from the heart.'",
+        siteLogo: "",
+        href: '',
+        work: "Vocals and lyrics on 'What Can I Say'",
         finalComment: "Let's make music."
     },
   ];

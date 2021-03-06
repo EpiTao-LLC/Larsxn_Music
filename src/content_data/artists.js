@@ -17,7 +17,7 @@ const artists = [
         picture: "/images/KTM_Chano.png",
         alt: "Ktm Chano picture",
         tag: "'Just trying to make dreams come true.'",
-        siteLogo: "/images/2020_soundcloudlogo.png",
+        siteLogo: "/images/2020_soundcloudlogo.jpeg",
         href: 'https://soundcloud.com/chandler-sutherland',
         work: "Vocals and lyrics on 'Never Stop Me'",
     },

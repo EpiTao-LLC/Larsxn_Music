@@ -29,7 +29,7 @@ const artists = [
         alt: "Chris Shoda picture",
         tag: "'Pursue your dreams until they pursue you.'",
         siteLogo: "/images/spotify-logo.jpeg",
-        href: 'https://open.spotify.com/artist/0ryzMRpTWkUorpPA8CSZ8u?si=QxjyNVXaTgKTwM3l8acr1A',
+        href: 'https://open.spotify.com/artist/0ryzMRpTWkUorpPA8CSZ8u?si=QxjyNVXaTgKTwM3l8acr1A&nd=1',
         work: "Vocals, lyrics, mixing and production on 'Changes'",
     },
     {

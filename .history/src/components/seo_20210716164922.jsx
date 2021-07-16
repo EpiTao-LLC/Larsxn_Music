@@ -43,7 +43,7 @@ const SEO = () => {
       <link rel="canonical" href="https://www.larsxn.com" />
       <meta name="" content="index,follow,max-image-preview:large" />
 
-      <meta name="keywords" content="Larsxn, music, new artist, composer, producer, vocals, instrumentals, hip hop, pop, spotify, apple music, soundcloud, hits, top, What can I say, Lie. Away, Never Stop Me, Ungrateful, Changes"/>
+      <meta name="keywords" content="Larsxn, music, new artist, composer, producer, vocals, instrumentals, video, hip hop, pop, chill, spotify, apple music, soundcloud, hits, top, Lie. Away, Never Stop Me, Ungrateful, Changes"/>
 
       {/* Cross-origin isolation for Google Chrome */}
 

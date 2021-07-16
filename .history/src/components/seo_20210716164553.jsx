@@ -43,12 +43,13 @@ const SEO = () => {
       <link rel="canonical" href="https://www.larsxn.com" />
       <meta name="" content="index,follow,max-image-preview:large" />
 
-      <meta name="keywords" content="Larsxn, music, new artist, composer, producer, vocals, instrumentals, hip hop, pop, spotify, apple music, soundcloud, hits, top, What can I say, Lie. Away, Never Stop Me, Ungrateful, Changes"/>
+      <meta name="keywords" content="Larsxn, music, new artist, composer, producer, vocals, instrumentals, video, hip hop, pop, chill, spotify, apple music, soundcloud, hits, top, Lie. Away, Never Stop Me, Ungrateful, Changes"/>
 
       {/* Cross-origin isolation for Google Chrome */}
 
       <meta name="Cross-Origin-Embedder-Policy" content="require-corp" />
       <meta name="Cross-Origin-Opener-Policy" content="same-origin" />
+      <meta name="http-equiv='origin-trial'" conntent="An+i3qyt0eE84OMT2mgfWpQxPTcSgTh4TUv2p/k981X0BaZDxIPOOuamCTVq5UreDR6HVx06yWZFoIhKOTErZwcAAAB4eyJvcmlnaW4iOiJodHRwczovL3d3dy5sYXJzeG4uY29tOjQ0MyIsImZlYXR1cmUiOiJVbnJlc3RyaWN0ZWRTaGFyZWRBcnJheUJ1ZmZlciIsImV4cGlyeSI6MTYzOTUyNjM5OSwiaXNTdWJkb21haW4iOnRydWV9"
 
     </Helmet>
   )

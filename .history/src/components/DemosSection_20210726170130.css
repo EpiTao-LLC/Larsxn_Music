@@ -1,0 +1,224 @@
+
+/* Sample Tracks section */
+
+#demos {
+    background-color: white;
+    color:  #1e2022;
+    position: relative;
+}
+
+.demo-container {
+    display: flexbox;
+    position: relative;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    padding-top: .25%;
+}
+
+.demo-sect-header {
+    font-style: bold;
+    margin-top: 4rem;
+    padding-top: 4.0rem;
+    padding-bottom: 2rem;
+    font-size: 3.0vw;
+    font-weight: 600;
+}
+
+.demo-slide-container {
+    display: inline-flexbox;
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.demo-intro {
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    align-self: center;
+}
+/* .tracks-img {
+    display: block;
+    /* width: 100%; */
+    /* max-width: 400px;
+    height: auto;
+    margin: auto auto 2rem auto;
+} */ */
+.someClass {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    /* width: 100%; */
+    /* max-width: 400px; */
+    /* margin: auto auto 2rem auto; */
+}
+
+.demo-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* audio player styling */
+
+.demo-player-style {
+    color: black;
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 6pt;
+    border: 2px solid #52616b;
+    margin-bottom: 1rem;
+}
+
+.rhap_main-controls-button,
+.rhap_volume-button {
+    color: #52616b;
+}
+.rhap_progress-indicator,
+.rhap_volume-indicator  {
+    background:  #52616b;
+}
+
+.demo-player-background {
+   background-color: #c9d6df;
+   /* background-color: white; */
+}
+
+.demo-player-background:hover {
+    transform: scale(1.025);
+}
+
+/* adds some padding to inner carousle - bootstrap tweak */
+
+.carousel-inner {
+    padding-bottom: 5%;
+}
+
+/* changes boostrap button icons. */
+
+.carousel-indicators li {
+    background-color: #52616b;
+}
+
+.carousel-indicators .active {
+    background-color: #1e2022;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 4% !important;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    margin-left: 1px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.track-title {
+    font-size: 2rem;
+    font-weight: 500
+}
+
+.feat {
+    font-size: 1.30rem;
+}
+
+.artist-link {
+    font-style: bold;
+    font-size: 2.0rem;
+    font-weight: 800;
+    text-decoration: none;
+    color:  #52616b;
+    padding-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    display: inline;
+    margin: 0;
+
+}
+.artist-link:hover {
+    color: black;
+    font-size: 2.25rem;
+    text-decoration: none;
+}
+
+/* Style tweeks for Tablets */
+
+@media (max-width: 1200px) {
+
+    .demo-container {
+        display: flexbox;
+        position: relative;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 8%;
+    }
+    .demo-sect-header {
+        font-style: bold;
+        margin-top: 2rem;
+        padding-top: 3.0rem;
+        padding-bottom: 3rem;
+        font-size: 3.0rem;
+        font-weight: 600;
+    }
+    .demo-header {
+        font-size: 3.0rem;
+    }
+    .demo-intro {
+        font-size: 2.5rem;
+    }
+    .tracks-img {
+        max-width: 350px;
+    }
+}
+
+  /* Mobile Styling */
+
+  @media (max-width: 780px) {
+    .demo-container {
+        padding-bottom: 4%;
+    }
+
+    #demos {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .demo-sect-header {
+        margin-top: 1rem;
+        padding-top: .5rem;
+        font-size: 2.0rem;
+        font-weight: 600;
+    }
+    .demo-intro {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+    }
+    .tracks-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .track-title {
+        font-size: 1.5rem;
+        font-weight: 500
+    }
+
+    .carousel-inner {
+        padding-bottom: 20%;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 5% !important;
+    }
+
+    .artist-link {
+        font-size: 1.75rem;
+    }
+
+  }

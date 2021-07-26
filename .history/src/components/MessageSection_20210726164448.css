@@ -1,0 +1,87 @@
+
+/*  Artist messages section */
+
+#message {
+    background-color: #c9d6df;
+    color: #1e2022;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+#quote {
+    padding-top: 8rem;
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.msg-box {
+    font-size: 1.50vw;
+    color:  #52616b;
+    font-weight: 500;
+    white-space: pre-wrap;
+    position: relative;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.pic-box {
+    align-self: center;
+    width: 100%;
+    max-width: 600px;
+    height: 800px;
+    min-height: 400px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Style tweeks for Tablets */
+
+@media (max-width: 1200px) {
+    #quote {
+        text-align: center;
+        font-size: 2.5rem;
+        padding-top: 6rem;
+    }
+    .star-pic {
+        max-width: 400px;
+    }
+    .msg-box {
+        font-size: 1.3rem;
+        padding: 10px 0;
+    }
+    .pic-box {
+        min-width: 300px;
+        text-align: center;
+    }
+}
+
+  /* Mobile Styling */
+
+  @media (max-width: 780px) {
+    #message {
+        padding-bottom: 4rem;
+    }
+    #quote {
+        font-size: 1.75rem;
+        padding-top: 4rem;
+        margin-bottom: 3rem;
+    }
+    .msg-box {
+        font-size: 1rem;
+    }
+    .pic-box {
+        text-align: center;
+    }
+    .star-pic {
+        width: 200px;
+        height: 200px;
+    }
+  }

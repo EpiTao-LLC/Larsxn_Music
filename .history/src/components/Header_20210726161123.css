@@ -1,0 +1,165 @@
+
+.header-container{
+    display: flexbox;
+    flex-wrap: wrap;
+    background-color: #000000;
+    margin: 0, 0, 0, 0;
+  }
+
+#title {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding-top: 0rem;
+    padding-left: 6em;
+    padding-right: 6rem;
+    padding-bottom: 10rem;
+}
+
+*:focus {
+    outline: none !important;
+    underline: none !important;
+    text-decoration: none !important;
+}
+
+.navbar {
+    background-clip: black;
+    padding: 0rem 0rem 4.5rem;
+}
+
+.nav-brand {
+    font-family: 'Ubuntu';
+    font-size: 3.00rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: white;
+}
+.nav-brand:link {
+    text-decoration: none;
+}
+.nav-brand:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 3.1rem;
+}
+.nav-brand:active {
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 0 2px;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-style: light;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-style: light;
+    font-weight: 400;
+    padding-left: 28px;
+}
+
+#style-override {
+    outline: 1px solid black !important;
+}
+
+.dropdown-menu .dropdown-item {
+    background-color: black;
+    color: white;
+}
+.dropdown-item:hover {
+    color: white;
+    underline: none;
+    font-size: 110%;
+}
+.title-name-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0, 0, 0, 0;
+}
+
+.big-heading {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#coverart {
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+#cover {
+    width: 100%;
+    min-width: 400px;
+    height: auto;
+}
+
+.buy-btn {
+    margin: 10% 3% 5% 0%;
+
+ }
+
+@media (max-width: 1200px) {
+    #title {
+        text-align: center;
+    }
+ }
+
+
+/* This is to address automatic bootstrap sizing changes to dropdown menu */
+
+@media (max-width: 992px) {
+    .dropdown-menu button{
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 780px) {
+    .navbar {
+        padding: 0 0 2.5rem;
+    }
+
+    #title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 2em;
+    padding-right: 2rem;
+    padding-bottom: 6rem;
+}
+
+    .container-fluid {
+        padding: 0;
+    }
+    .header-container .container-fluid {
+        padding: 0% 2% 0% 2%;
+    }
+    .navbar-brand {
+        font-size: 2.0rem;
+    }
+    .nav-brand:hover {
+        text-decoration: none;
+        color: white;
+        font-size: 2.25rem;
+    }
+    .big-heading {
+        font-size: 3.25rem;
+        line-height: 1.0;
+    }
+    #cover {
+        max-width: 400px;
+        min-width: 300px;
+        height: 100%;
+        margin-top: 10%;
+    }
+}

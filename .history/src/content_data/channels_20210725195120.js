@@ -14,15 +14,15 @@ const channels = [
       {
         id: 3,
         name: "SoundCloud",
-        logo: "../images/2020_soundcloudlogo.png",
+        logo: "../images/2020_soundcloudlogo.jpeg",
         href: 'https://soundcloud.com/larsxn'
       },
-      {
-        id: 4,
-        name: "Boomplay",
-        logo: "../images/Boomplay.jpeg",
-        href: 'https://player.boomplaymusic.com/artists/14557373?from='
-      },
+      // {
+      //   id: 4,
+      //   name: "Boomplay",
+      //   logo: "../images/Boomplay.jpeg",
+      //   href: 'https://player.boomplaymusic.com/artists/14557373?from='
+      // },
       {
         id: 5,
         name: "Deezer",
@@ -35,12 +35,12 @@ const channels = [
         logo: "../images/youtube-logo.jpeg",
         href: 'https://www.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'
       },
-      {
-        id: 7,
-        name: "GooglePlay",
-        logo: "../images/Google_Play_logo.png",
-        href: 'https://play.google.com/store/music/artist?id=Atvqxetkyoco7l53jnsfg7zmcfi&hl=en_US'
-      },
+      // {
+      //   id: 7,
+      //   name: "iHeartRadio",
+      //   logo: "../images/iheartradio-logo.jpeg",
+      //   href: 'https://www.iheart.com/artist/larsxn-34459646/'
+      // },
       {
         id: 8,
         name: "Amazon",

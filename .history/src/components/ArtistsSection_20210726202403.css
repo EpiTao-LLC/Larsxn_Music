@@ -40,12 +40,9 @@
     align-self: center;
     position: relative;
     /* width: 100%; */
-    /* width: 400px;
-    height: 400px; */
-    max-height: 800px;
-    min-height: 600px;
+    width: 400px;
+    height: 400px;
     max-width: 600px;
-    min-width: 400px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -101,7 +98,7 @@
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     #artists {
         text-align: center;
         font-size: 2.5rem;
@@ -115,10 +112,8 @@
         min-width: 300px;
     } */
     .artist-pic-box {
-        max-width: 300px;
-        min-width: 300px;
-        max-height: 500px;
-        min-height: 300px;
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -150,11 +145,9 @@
         width: 300px;
     }
     .artist-pic-box {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
         width: 300px;
-        height: 300px;
+        height: auto;
+        /* height: 300px; */
         text-align: center;
     }
 }

@@ -35,12 +35,12 @@ const channels = [
         logo: "../images/youtube-logo.jpeg",
         href: 'https://www.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'
       },
-      // {
-      //   id: 7,
-      //   name: "iHeartRadio",
-      //   logo: "../images/iheartradio-logo.jpeg",
-      //   href: 'https://www.iheart.com/artist/larsxn-34459646/'
-      // },
+      {
+        id: 7,
+        name: "iHeartRadio",
+        logo: "../images/iheartradio-logo.jpeg",
+        href: 'https://www.iheart.com/artist/larsxn-34459646/'
+      },
       {
         id: 8,
         name: "Amazon",

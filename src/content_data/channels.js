@@ -33,8 +33,8 @@ const channels = [
         id: 6,
         name: "YouTube",
         logo: "../images/youtube-logo.jpeg",
-        // href: 'https://www.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'
-        href: 'https://music.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'
+        href: 'https://www.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'
+        // href: 'https://music.youtube.com/channel/UCtS9-UPqDNItU9LVvAIA37Q'
       },
       // {
       //   id: 7,
